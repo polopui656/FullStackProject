@@ -1,0 +1,117 @@
+body{
+    background-color: aqua;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+#title{
+    color: #f2efef;
+    font-size: 20px;
+    margin-right: 900px;
+}
+
+.nav{
+    display: flex;
+    width: auto;
+    padding: auto;
+    height: 90px;
+    background-color: rgb(86, 3, 134);
+}
+
+a{
+    padding: 5px;
+    color: #f2efef;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Phần trang trí cho nút contract */
+#btn-contract{
+    margin-left: 100px;
+    background-color: rgb(93, 95, 255);
+    border-radius: 5px;
+    border: 100px;
+}
+
+hr{
+    background-color: black;
+    border-width: 2px;
+}
+
+section{
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    color: rgba(43, 150, 237, 0.804);
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    text-shadow: 1px 1px 1px rgb(97, 95, 95);
+}
+
+/* Hình ảnh, bảng thông tin và nội dung của Avatar */
+
+.intro{
+    margin: 10px 10px 0px 150px;
+    border: 5px solid rgb(22, 129, 191);
+    justify-content: center;
+    background-color: rgb(22, 129, 191);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#avatar{ 
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#description{
+    max-width: 900px;
+    line-height: 1.6;
+    display: inline-block;
+    padding: 60px;
+    font-size: 20px;
+    color: rgb(235, 226, 226);
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* Phần project */
+
+#project-art {
+    font-size: 35px;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+#project-code {
+    font-size: 35px;
+    padding-left: 50px;
+    font-style: italic;
+}
+
+
+
+/* Phần Footer */
+footer {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    background-color: rgb(86, 3, 134);
+    color: #f2efef;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
